@@ -1,0 +1,21 @@
+http:
+  port: "8081"
+
+american:
+  host: "mu.mule-training.com"
+  port: "80"
+  basepath: "/american"
+  protocol: "HTTP"
+  client_id: "c05ddced9f1442a5b4f46335b810f2f1"
+  client_secret: "D86c96AC942346Ccb51D50B00ED5a4B4"
+
+training:    
+  host: "mu.mule-training.com"
+  port: "80"
+  basepath: "/"
+  protocol: "HTTP"
+
+delta:
+  wsdl: "http://mu.mule-training.com/delta?wsdl"
+  service: "TicketServiceService"
+  port: "DeltaFlightsServiceImplPort"
